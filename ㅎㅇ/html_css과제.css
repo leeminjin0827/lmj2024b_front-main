@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    box-sizing: border-box;
+}
+/* 전체구역 css */
+
+#header{
+    background-color: #fa0050; display: flex;
+    justify-content: space-between; align-items: center;
+    padding: 0px 50px;
+}
+#header > #h_logo img{
+    width: 100px;
+}
+#header > #h_ul{
+    display: flex; justify-content: space-between; width: 730px;
+} 
+#header > #h_ul li a{
+    color: white; font-size: 18px; font-weight: 400;
+    display: block; line-height: 80px;
+}
+/* #header > #h_ul .click{
+
+} */
+#header > #h_site{
+    display: flex; justify-content: space-between; width: 100px;
+}
+/* 헤더 fin*/
+
+#content3{
+    background-image: url('./img/mainimg.jpg');
+    height: 370px; display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+#content3 span{
+    color: white; font-weight: 900; font-size: 50px;
+    letter-spacing: 10px;
+}
+#content3 p{
+    color: white; margin-top: 15px;
+}
+/* 메인 이미지 css fin*/
