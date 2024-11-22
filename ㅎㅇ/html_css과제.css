@@ -23,12 +23,15 @@
     display: flex; justify-content: space-between; width: 730px;
 } 
 #header > #h_ul li a{
-    color: white; font-size: 18px; font-weight: 400;
     display: block; line-height: 80px;
 }
-/* #header > #h_ul .click{
-
-} */
+#header > #h_ul li a:hover p,
+#header > #h_ul li .active p{
+    text-decoration: overline; text-decoration-thickness: 2px;
+}
+#header > #h_ul li a p{
+    color: white; font-size: 18px; font-weight: 400;
+}
 #header > #h_site{
     display: flex; justify-content: space-between; width: 100px;
 }
@@ -61,6 +64,8 @@
     text-underline-offset: 10px;
     font-weight: bold;
 }
+/* CSR fin*/
+
 #main3 > #maincenter{
     width: 1250px; margin: 0 auto;
     text-align: center;
@@ -84,7 +89,7 @@
 #main3 > #maincenter #mainclean{
     display: flex; 
     justify-content: space-between;
-    /* flex-wrap: wrap; */
+    margin-bottom: 20px;
 }
 #main3 > #maincenter #mainclean li{
     border: 1px solid #e5e5e5; width: 280px;
@@ -95,4 +100,79 @@
 }
 #main3 > #maincenter #mainclean li a p{
     padding: 0px 15px 20px 15px; text-align: left;
+}
+#main3 > #maincenter #mainslide{
+    display: flex; justify-content: center;
+    margin-bottom: 100px;
+}
+#main3 > #maincenter #mainslide li:not(:last-child){
+    margin-right: 5px;
+}
+#main3 > #maincenter #mainslide li a{
+    text-indent: -9999px; display: block;
+    width: 12px; height: 12px; border-radius: 100px;
+    background-color: #f5b5b2; 
+}
+#main3 > #maincenter #mainslide li >.active,
+#main3 > #maincenter #mainslide li a:hover{
+    background-color: #e00900;
+}
+/* maincenter fin*/
+
+#main3 > #topbtn{
+    width: 1250px; margin: 0 auto; text-align: right;
+    margin-bottom: 20px;
+}
+/* topbtn fin*/
+
+#footer{
+    background-color: #333333; 
+}
+#footer > #foom{
+    width: 1250px; margin: 0 auto; display: flex;
+    align-items: center; padding: 50px 0px;
+    justify-content: space-between;
+}
+#footer > #foom > #foofont{
+    margin-right: 280px;
+}
+#footer > #foom > #foofont p{
+    color: white; font-weight: bold; font-size: 20px;
+    margin-bottom: 10px;
+}
+#footer > #foom > #foofont span{
+    color: white; font-size: 14px;
+}
+#footer > #foom > #foofont #address{
+    margin-right: 15px;
+}
+#footer > #foom > #foolink{
+    text-align: right;
+}
+#footer > #foom > #foolink > a{
+    margin-bottom: 20px; display: block;
+}
+#footer > #foom > #foolink > ul{
+    display: flex; justify-content: center;
+}
+#footer > #foom > #foolink > ul .dropbox1 ul li{
+    background-color: #494949; text-align: left;
+    padding: 7px 44px 7px 15px;
+}
+#footer > #foom > #foolink{
+    position: relative;
+}
+#footer > #foom > #foolink > ul .dropbox1{
+    position: absolute; top: 25px; display: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+#footer > #foom > #foolink > ul .dropbox1 ul li a{
+    color: lightgray; font-size: 12px;
+    display: block; 
+}
+#footer > #foom > #foolink > ul .dropbox1 ul li a:hover{
+    color: white;
+}
+#footer > #foom > #foolink > ul:active .dropbox1{
+    display: block;
 }
