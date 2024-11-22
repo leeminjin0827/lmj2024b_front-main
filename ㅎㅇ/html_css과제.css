@@ -47,3 +47,52 @@
     color: white; margin-top: 15px;
 }
 /* 메인 이미지 css fin*/
+
+#main3 > #CSR{
+    border: 1px solid #e5e5e5;
+    text-align: center; margin-bottom: 100px;
+}
+#main3 > #CSR a{
+    font-size: 18px; display: block;
+    line-height: 50px;
+}
+#main3 > #CSR a:hover{
+    text-decoration: underline; 
+    text-underline-offset: 10px;
+    font-weight: bold;
+}
+#main3 > #maincenter{
+    width: 1250px; margin: 0 auto;
+    text-align: center;
+}
+#main3 > #maincenter h2{
+    font-size: 50px;
+}
+#main3 > #maincenter > hr{
+    background: #d61f26; margin: 20px auto;
+    height: 2px; width: 20px; border: 0px;
+}
+#main3 > #maincenter > p{
+    font-size: 36px; font-weight: bold; margin-bottom: 50px;
+}
+#main3 > #maincenter > #maindown a{
+    margin-bottom: 30px; display: block;
+}
+#main3 > #maincenter > #maindown a img{
+    width: 1250px;
+}
+#main3 > #maincenter #mainclean{
+    display: flex; 
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+#main3 > #maincenter #mainclean li{
+    border: 1px solid #e5e5e5; width: 280px;
+}
+#main3 > #maincenter #mainclean li a span{
+    display: block ; color: #1f53d6; font-weight: bold;
+    text-align: left; padding: 10px 15px 10px 15px;
+}
+#main3 > #maincenter #mainclean li a p{
+    padding: 0px 15px 20px 15px; text-align: left;
+}
